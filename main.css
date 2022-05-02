@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+body {
+  background-color: #f0bcd4;
+  font-family: 'Tapestry', cursive;
+}
+
+
+.myNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myIcon > img {
+ width: 10%; 
+}
+
+.myNavigation {
+  display: flex;
+}
+
+/* bc2c25 */
+
+.myNavigation > li {
+  color: #f0bcd4;
+  list-style-type: none;
+  margin: 3px;
+  background-color: #DB504A;
+  padding: 5px;
+  border-radius: 6px;
+
+  transition: all .5s;
+}
+
+.myNavigation > li:hover {
+ background-color: #bc2c25; 
+ color: #fff;
+}
